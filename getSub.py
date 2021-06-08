@@ -22,8 +22,8 @@ archives = {}
 tz = timezone('EST') 
 
 reddit = praw.Reddit(
-    client_id="6yG-inADUv27Hg",
-    client_secret="B7UX329CtbMdFTMun4gbk1T4k-qjjw",
+    client_id="thisclientisdead...uhg",
+    client_secret="welpIfuckedthatup.hadtodeletetheappbcicommitedit",
     user_agent=ua,
 )
 
