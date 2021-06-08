@@ -30,6 +30,7 @@ reddit = praw.Reddit(
 
 
 def getArchiveTag(link, created_on, soup):
+    archive = False
     if link['href'] not in archives:
         if 'youtu.be' in link['href'] or 'youtube.com' in link['href']:
             with open("youtube-list.txt","a") as ytf:
@@ -67,7 +68,10 @@ def getArchiveTag(link, created_on, soup):
                 except:
                     print(f"This link is jacked, can't archive:{aWB.url}")
                     archives[link['href']] = link['href']
-        archives[link['href']] = archive.archive_url
+        if(archive): 
+            archives[link['href']] = archive.archive_url
+        else: 
+            archives[link['href']] = link['href']
     return archives[link['href']]
 
 def backupImg(link,type):
