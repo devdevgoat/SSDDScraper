@@ -1,5 +1,5 @@
 ---
-title: "/u/dlauer's most recent post correcting blatant misinformation isn't getting any traction. He even urges people who have had "high cost basis when transferring out of Robinhood to file a whistleblower complaint" "
+title: "/u/dlauer's most recent post correcting blatant misinformation isn't getting any traction. He even urges people who have had \"high cost basis when transferring out of Robinhood to file a whistleblower complaint\" "
 author: "MelodicAd2218"
 date: "2021-05-21 19:13:56"
 archived: "2021-06-07 23:52:14"

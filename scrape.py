@@ -36,6 +36,8 @@ def getArchiveTag(link, created_on, soup):
                 ytf.write(link["href"])
                 ytf.write("\n")
                 ytf.close()
+            archives[link['href']] = link['href']
+            return archives[link['href']]
         if 'reddit.com/r/' in link['href']:
             aprarsed = link['href'].split('?')[0].split('#')[0]
             # if it's a linked post, we want the archive of the target
@@ -151,8 +153,9 @@ def getSub(submission):
         a.insert_after(tag)      
         
     with open(f"dd/{submission.id}.html", 'w', encoding='utf-8') as f:
+        title = submission.title.replace('"','\\"')
         f.write(f'''<yaml>---
-title: "{submission.title} "
+title: "{title} "
 author: "{submission.author.name}"
 date: "{cts.strftime("%Y-%m-%d %H:%M:%S")}"
 archived: "{ats.strftime("%Y-%m-%d %H:%M:%S")}"
@@ -197,10 +200,11 @@ with open('archives.json') as json_file:
 
 for submission in reddit.subreddit("superstonk").search('flair:"DD"', limit = 1000, syntax='lucene', sort='top'):
     rank.append(submission.id)
-    # if (path.exists(f"dd/{submission.id}.html")):
-    #     print(f"Already archived {submission.id}")
-    # else:
-    getSub(submission)
+    if (path.exists(f"dd/{submission.id}.html")):
+        print(f"Already archived {submission.id}")
+        continue
+    else:
+        getSub(submission)
     try:
         createMd(f'{submission.id}.html')
     except:

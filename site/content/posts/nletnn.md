@@ -1,12 +1,13 @@
 ---
-title: "$GME - The Mother of All Short Squeezes (MOASS) Thesis. Summarized and broken down in a way for all (or most) to understand. We are in the end-game everyone, and this rocket is taking off with or without you. If you want to understand that whole "GME thing" this is my best shot at explaining it "
+title: "$GME - The Mother of All Short Squeezes (MOASS) Thesis. Summarized and broken down in a way for all (or most) to understand. We are in the end-game everyone, and this rocket is taking off with or without you. If you want to understand that whole \"GME thing\" this is my best shot at explaining it "
 author: "HCMF_MaceFace"
 date: "2021-05-26 11:36:53"
 archived: "2021-06-07 23:51:18"
 permalink: "http://reddit.com/r/Superstonk/comments/nletnn/gme_the_mother_of_all_short_squeezes_moass_thesis/"
 waybackpermalink: "https://web.archive.org/web/20210526115449/https://www.reddit.com/r/Superstonk/comments/nletnn/gme_the_mother_of_all_short_squeezes_moass_thesis/"
 weight: 9
----Edit (6/7/2021): Made some significant additions and refinements to the content here (had to cut a bunch due to character limit :(
+---
+Edit (6/7/2021): Made some significant additions and refinements to the content here (had to cut a bunch due to character limit :(
 
 
 
