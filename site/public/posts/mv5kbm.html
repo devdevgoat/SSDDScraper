@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Deep Dive into Dark Pool Trading - How they might accidentally be showing us the number of synthetic shares  - (DD)uplicate! A Decentralized home for all GME DD</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Hello Apes,
+Cheers to all the hedge funds forcing my brain into growing a few wrinkles! I wouldn&rsquo;t be here today without you! Y&rsquo;all ready for that dank confirmation bias? Don&rsquo;t forget to puff puff pass this on to any relevant subreddits.
+​
+We all &ldquo;know&rdquo; there is some major fudgery going on. One of the areas I personally understood the least was Dark Pools or OTC trading. I am not going to pretend I have a masters in economics or hell that I even finished college, but I can assure you I have a black belt in google and know how to operate a spreadsheet." />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Deep Dive into Dark Pool Trading - How they might accidentally be showing us the number of synthetic shares " />
+<meta property="og:description" content="Hello Apes,
+Cheers to all the hedge funds forcing my brain into growing a few wrinkles! I wouldn&rsquo;t be here today without you! Y&rsquo;all ready for that dank confirmation bias? Don&rsquo;t forget to puff puff pass this on to any relevant subreddits.
+​
+We all &ldquo;know&rdquo; there is some major fudgery going on. One of the areas I personally understood the least was Dark Pools or OTC trading. I am not going to pretend I have a masters in economics or hell that I even finished college, but I can assure you I have a black belt in google and know how to operate a spreadsheet." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/mv5kbm.html" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-04-21T01:39:43&#43;00:00" />
+<meta property="article:modified_time" content="2021-04-21T01:39:43&#43;00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Deep Dive into Dark Pool Trading - How they might accidentally be showing us the number of synthetic shares "/>
+<meta name="twitter:description" content="Hello Apes,
+Cheers to all the hedge funds forcing my brain into growing a few wrinkles! I wouldn&rsquo;t be here today without you! Y&rsquo;all ready for that dank confirmation bias? Don&rsquo;t forget to puff puff pass this on to any relevant subreddits.
+​
+We all &ldquo;know&rdquo; there is some major fudgery going on. One of the areas I personally understood the least was Dark Pools or OTC trading. I am not going to pretend I have a masters in economics or hell that I even finished college, but I can assure you I have a black belt in google and know how to operate a spreadsheet."/>
+
+	<link href="../css/fonts.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" /><link rel="stylesheet" type="text/css" href="../css/dark.css"  />
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="../">(DD)uplicate! A Decentralized home for all GME DD</a>
+	</div>
+	<nav>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Deep Dive into Dark Pool Trading - How they might accidentally be showing us the number of synthetic shares </h1>
+			<div class="meta" style="text-align: center;">Posted: Apr 21, 2021 |
+				Archived: Jun 8, 2021 | 
+				<a href=http://reddit.com/r/Superstonk/comments/mv5kbm/deep_dive_into_dark_pool_trading_how_they_might/ >Permalink</a> |
+				<a href=https://web.archive.org/web/20210421113939/https://www.reddit.com/r/Superstonk/comments/mv5kbm/deep_dive_into_dark_pool_trading_how_they_might/ >WBLink</a>
+				  </div>
+		</div>
+		
+
+		<section class="body">
+			<p>Hello Apes,</p>
+<p>Cheers to all the hedge funds forcing my brain into growing a few wrinkles! I wouldn&rsquo;t be here today without you! Y&rsquo;all ready for that dank confirmation bias? Don&rsquo;t forget to puff puff pass this on to any relevant subreddits.</p>
+<p>​</p>
+<p><img src="../img/r4om962gyiu61.jpg" alt="">
+We all &ldquo;know&rdquo; there is some major fudgery going on. One of the areas I personally understood the least was Dark Pools or OTC trading. I am not going to pretend I have a masters in economics or hell that I even finished college, but I can assure you I have a black belt in google and know how to operate a spreadsheet.</p>
+<h1 id="wtf-is-a-dark-pool">WTF is a Dark Pool?</h1>
+<p>​</p>
+<p><img src="../img/9g3n3c1fyiu61.jpg" alt="">
+From Investopedia: <a href="https://www.investopedia.com/terms/d/dark-pool.asp"><strong>L</strong></a> <a href="https://web.archive.org/web/20210501203528/https://www.investopedia.com/terms/d/dark-pool.asp">(wb)</a><strong>ink Removed</strong></p>
+<p><em>&ldquo;A dark pool is a privately organized financial forum or exchange for trading securities.</em> <em><strong>Dark pools allow institutional investors to trade without exposure until after the trade has been executed and reported.</strong></em> <em>Dark pools are a type of</em> <a href="https://www.investopedia.com/terms/a/alternative-trading-system.asp"><em>alternative trading system</em></a> <a href="https://web.archive.org/web/20210506232438/http://www.investopedia.com/terms/a/alternative-trading-system.asp">(wb)</a> <em>(ATS) that give certain investors the opportunity to place large orders and</em> <em><strong>make trades without publicly revealing their intentions during the search for a buyer or seller.</strong></em><em>&quot;</em></p>
+<p>Well that seems nefarious on the surface. Lets dig deeper. Why is this ok?</p>
+<p><em>&ldquo;Dark pools emerged in the 1980s when the</em> <a href="https://www.investopedia.com/terms/s/sec.asp"><em>Securities and Exchange Commission</em></a> <a href="https://web.archive.org/web/20210420132257/https://www.investopedia.com/terms/s/sec.asp">(wb)</a> <em>(SEC) allowed brokers to transact</em> <em><strong>large blocks of shares</strong></em>*. Electronic trading and an SEC ruling in 2007 that was designed to increase competition and cut transaction costs have stimulated an increase in the number of dark pools.&quot;*</p>
+<p>Ok, that makes sense. We wouldn&rsquo;t want to cause artificial price drops just because an institution is exiting a position right?</p>
+<p><em>&ldquo;A study by Celent found that as a result of block orders moving to dark pools, the average order size dropped from 430 shares in 2009 to approximately 200 shares in 2013.&quot;</em></p>
+<p>WTF? So what is the current average size for a Dark Pool block order?</p>
+<p>According to smartasset : <a href="https://smartasset.com/investing/dark-pool#:~:text=The%20average%20size%20of%20a,in%20advance%20of%20market%20knowledge"><strong>L</strong></a> <a href="https://web.archive.org/web/20210413140946/https://smartasset.com/investing/dark-pool">(wb)</a><strong>INK REMOVED</strong></p>
+<p><em>&ldquo;The average size of a dark pool transaction has dropped to little more than 180 to 200 shares per transaction. This is a far cry from the original intent of ATS. Nevertheless, dark pool exchanges are built for institutional investors looking to act in advance of market knowledge.&quot;</em></p>
+<p>That seems like normal market order size. I wonder what the average trade size on the NYSE is?</p>
+<p>According to seeking alpha: <strong>LINK REMOVED</strong></p>
+<p><em>&ldquo;This year, the average order has shrunk to only 200 shares.&quot;</em></p>
+<p>Well&hellip;&hellip;. Fuck me (us)&hellip;.</p>
+<h1 id="how-about-some-data">How about some Data?</h1>
+<p>​</p>
+<p><img src="../img/96ru5yhiyiu61.jpg" alt="">
+Thank goodness Dark Pool data is publicly available even if its a huge pain in the ass to sort through. Lets check what Finra has to say about the last month of available data for ohhh lets try 10 stocks. Gamestop, A certain movie theatre, American Airlines, Best Buy, Bed Bath &amp; Beyond, Ford, General Motors, Office Depot, Apple and Microsoft.</p>
+<p>Data sourced from Finra OTC Transparency: <strong>LINK REMOVED</strong></p>
+<p>Oooooo oooo ooo. Look at all these pretty colors!</p>
+<p>​</p>
+<p><img src="../img/rg71ptmjyiu61.jpg" alt="">
+This is the main table of data I will be using to run some calculations. Anything catch your eye? How about now?</p>
+<p>​</p>
+<p><img src="../img/ar4ipu1lyiu61.jpg" alt="">
+Still don&rsquo;t see it? This is as smooth as I can make it.</p>
+<p>​</p>
+<p><img src="../img/h83bw64myiu61.jpg" alt="">
+Ok&hellip; WTF right? 24% of GME and 15% of a certain movie theatres float is traded in Dark Pools? That can&rsquo;t be right. There&rsquo;s no way that can be right. Even the most shorted airline AAL has a ratio of 2.29%. If you average the other companies together we get .91%. That means most companies (or at least the ones here) have an average of less than 1% of their shares traded in Dark Pools but GME is almost 1/4 of all available shares traded OTC? How can that be? We will get there in a minute.</p>
+<p>Lets first take a look at some more fudgery. Average number of shares per trade in Dark Pools. Remember how we found out the average is 180-200 shares? Look at these numbers.</p>
+<p>​</p>
+<p><img src="../img/xebs37fnyiu61.jpg" alt="">
+Lets see if we can make that easier to read.</p>
+<p>​</p>
+<p><img src="../img/gpvhbskoyiu61.jpg" alt="">
+So you are telling me that the system built for large block trades, that averages 180-200 shares per trade (lol already) swaps GME shares on average of less than 50 shares per trade? Get fukt! This defeats the entire purpose of Dark Pools and if nothing else lends credence to the theories circulating about rehypothecation in OTC.</p>
+<h1 id="lets-get-to-that-sweet-speculation">Lets get to that sweet speculation!</h1>
+<p>Warning: I am not a financial advisor. I don&rsquo;t know what the fuck I&rsquo;m talking about. I am missing lots of historical context and extrapolating complicated ideas from simple numbers. With that out of the way LET&rsquo;S FUCKING GO!</p>
+<p>​</p>
+<p><img src="../img/6reenpfqyiu61.jpg" alt="">
+If we were to make the wild assumption that the average shares traded OTC to available float ratio holds at less than 1% what would it take to make these numbers line up? Great question! All you would have to do is modify a variable. That variable of course is how many shares are actually traded in the real world. We all know rehypothecation is possible and being practiced. We all know these shorts didn&rsquo;t cover. Lets run some numbers and see how bad it could possibly be!</p>
+<p>Here are two simulations. A worst case scenario where we need the numbers to actually line up with the average of .91% and a medium case scenario where we want the numbers to line up with ohhhh lets say more than double American Airlines the most heavily shorted airline stock. Sound fair?</p>
+<p>​</p>
+<p><img src="../img/b8ew2asryiu61.jpg" alt="">
+Holy Mother of all Short Squeezes! <strong>26x</strong> the float? 2,650% that can&rsquo;t be real but its possible. Lets look at the medium case instead. <strong>4.8x</strong> the float? WTF does this mean? It means that in order for the number of shares traded OTC for Gamestop to make any kind of sense we have to assume there are and additional <strong>205</strong> <strong>million</strong> synthetic shares flying around on the internet.</p>
+<p>​</p>
+<p><img src="../img/s6d751wsyiu61.jpg" alt="">
+Let that shit sink in. In this &ldquo;medium case scenario&rdquo; that is already incredibly conservative we are talking about there being <strong>5 synthetic shares out there for every 1 real share.</strong></p>
+<h1 id="wut-now-wen-moon">Wut now? Wen moon?</h1>
+<p>Fuck if I know dude. Tear my numbers apart. Give me better comparable. I used Office Depot because the available float is similar to GME and the business model of strip mall based retail with a small but growing ecommerce sector seems to line up. I am happy to run this again with longer date ranges and more companies but not without some guidance. It took me hours to do this and I want to make sure v2 is worth the time. If you would like to run the numbers yourself feel free to PM me and Ill send you the spreadsheet to do it yourself. I dont wanna make apes have to copy paste all this shit like I had to.</p>
+<p><strong>TLDR:</strong> Dark Pools are being used to trade gamestop more than 20x more than any other stock I checked. The average shares per trade is 1/4 as much as any other stock I checked. Extrapolating from this data I hypothesize that there are anywhere between 260 million - 1.4 billion GME shares floating around when there should be only 54 million.</p>
+<p><strong>ELIA:</strong> Ape pass banana up tree. give banana to smarter ape.</p>
+<p>MY TITS ARE JACKED!</p>
+<p>Edit 1: Holy hell, thanks for all the comments and awards. I am on satellite internet and its gonna take me forever to respond. Please don&rsquo;t take it personally.</p>
+<p>Edit 2: some great comments about this missing exchange volume data. I would like to include that but I have questions. Is this finra OTC data separate from public daily posted volume or is it part of it? I am assuming it&rsquo;s separate as it&rsquo;s delayed reporting.</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			
+		</div>
+	</article>
+</main>
+<footer>
+<hr>⚡️
+	2021  <a href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+</footer>
+
+
+</div>
+    </body>
+</html>
