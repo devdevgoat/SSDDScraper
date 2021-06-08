@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "(DD)uplicate! A Decentralized home for all GME DD"
+theme = "archie"
+staticDir = ["static", "static/img"]
+
+[params]
+    mode = "dark"
+    

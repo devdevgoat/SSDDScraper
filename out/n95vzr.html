@@ -1,0 +1,83 @@
+<body><h1>Someone is turding in the dark pools again!</h1>
+<h3>By: Pubertus</h3>
+<p>Created: 1620656777.0
+<a href="http://reddit.com/r/Superstonk/comments/n95vzr/someone_is_turding_in_the_dark_pools_again/">Permalink</a>
+<content><p>Typical disclaimer: I am retrieving Finra ADF (OTC dark pool) data from Fidelity using Time &amp; Sales and running it through some spaghetti code I threw together for analysis purposes. As always, if you notice any errors in my data please point them out as <strong>I am prone to making mistakes and I'm no wrinkle brain</strong>.</p>
+<p>For additional information, and understanding how I am doing all this, <a href="https://www.reddit.com/r/Superstonk/comments/n7ahcl/found_something_funky_on_the_dark_pools/?utm_source=share&amp;utm_medium=web2x&amp;context=3">please read my post from last week.</a> I highly recommend reading my last post because it will better frame what I'm about to present.</p>
+<p><strong>SOMEONE IS FUCKING AROUND WITH DARK POOL TRANSACTIONS!</strong></p>
+<p><strong>A large amount of 1 share size transactions are being channeled to the dark pools outside the NBBO and sometimes in excess of $3!!!!!</strong></p>
+<p>Here is GME Finra ADF data:</p>
+<p>https://preview.redd.it/kdu1zgiwxay61.png?width=869&amp;format=png&amp;auto=webp&amp;s=43740f0564aafa5d153e18c46d188fd4adb1c83e</p>
+<p>https://preview.redd.it/fdkicgiryay61.png?width=1001&amp;format=png&amp;auto=webp&amp;s=e09d447aa3f254afa1a2eb317b2fc69b75fd2a56</p>
+<p>Here is GME from 9:30-10am for NYSE exchange.</p>
+<p>https://preview.redd.it/9c49x1b8cby61.png?width=745&amp;format=png&amp;auto=webp&amp;s=d22e41812e24cb4a12599553c6f91884eb747a95</p>
+<p>u/dlauer Since you may have missed my post from Thursday, I invite you to shed some light on what is happening. Currently, this appears to be evidence of price suppression combined with price gouging of customers through the use of OTC dark pools. At minimum, someone is executing trades through the dark pools outside of the NBBO and in violation of reg NMS. It happened for the first time (that I've ever witnessed) on Thursday 5-6 and is again actively happening right now!</p>
+<p>~~I have not verified whether~~ Other stocks are being manipulated the same way they were last Thursday.</p>
+<p>Edit:</p>
+<p>I checked AMC to see if it's happening again to other stocks and found that it is:</p>
+<p>https://preview.redd.it/vjt9k79p9by61.png?width=745&amp;format=png&amp;auto=webp&amp;s=82cd5eee8b45a45f2f13dd7d844fbe0cf31e3157</p>
+<p>Edit3:</p>
+<p>https://preview.redd.it/yqqlbb87pdy61.png?width=1327&amp;format=png&amp;auto=webp&amp;s=fb722bfed151095071b87ca38a8a08190f730e7e</p>
+<p>Here is the cumulative data for today (5-10). <strong>It appears whatever was happening ceased before 12:00ET.</strong> Suspicious that the timing coincides with when my post started getting traction. I'm not gonna jump to conclusions though.</p>
+<p>Here's a chart with the corresponding impacts outlined:</p>
+<p>https://preview.redd.it/3qmnaevrpdy61.png?width=1242&amp;format=png&amp;auto=webp&amp;s=94f0147f151688926bee9e2f4f5096292477ee90</p>
+<p>Large frequency transaction prices:</p>
+<p>9:30AM-11:00AM - Above Asks</p>
+<ul>
+<li>$161.755 (9:30:12ET - 9:43:11ET)</li>
+<li>$157.525 (9:43:21ET - 9:43:22ET)</li>
+<li>$157.31 (9:43:27ET - 9:58:22ET)</li>
+<li>$154.09 (9:58:44ET - 10:13:10ET)</li>
+<li>$154.02 (10:13:27ET - 10:28:20ET)</li>
+<li>$153.845 (10:28:39ET - 10:43:22ET)</li>
+<li>$151.155 (10:44:05ET - 10:58:08ET)</li>
+</ul>
+<p>11:00AM-12:00PM - Below Bids</p>
+<ul>
+<li>$154.02 (10:16:05ET - 10:22:05ET)</li>
+<li>$150.955 (10:58:34ET - 11:13:20ET)</li>
+<li>$151.38 (11:13:46ET - 11:28:18ET)</li>
+<li>$152.25 (11:29:23ET - 11:37:57ET)</li>
+</ul>
+<p>Here's the number of transactions at each of the above price points. I may need to look further into $154.02 since it appears on both sides and is almost a wash in transaction count.</p>
+<p>https://preview.redd.it/700s34mfwdy61.png?width=390&amp;format=png&amp;auto=webp&amp;s=f49c073fccc97a8b3103f8d75b42e32fc49cd2bd</p>
+<p>Edit4: Analyzing delay from NBBO.</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1PQPaQSRMHMPT20hYVKKTG7_QIGG1WIXKoR-6X1G8B6I/edit?usp=sharing">Here is my google doc for analyzing time delay from closest NBBO price vs execution</a></p>
+<p>The 1st tab contains all the transaction data from 9:30am-10am including all exchanges. Use this to confirm what I'm reporting and verify if I'm making any mistakes.</p>
+<p>The following tabs contain data from the closest NBBO timestamp and then the corresponding batch of transactions including all the outside NBBO orders in order to match that NBBO.</p>
+<ul>
+<li>$161.755</li>
+<li>Row 56 - 9:30:02ET - Begin NBBO</li>
+<li>Row 409 - 9:30:36ET - Last entry within that NBBO</li>
+<li>34 second delay</li>
+<li>$157.525</li>
+<li>This batch appears to have a corresponding supply of matching NBBO range</li>
+<li>$157.31 (The Dark orange highlights are NBBO price ranges permissible for $157.31)</li>
+<li>1st noticeable gap<ul>
+<li>Row 682 - 9:43:53ET - Begin NBBO</li>
+<li>Row 3601 - 9:47:37ET - Latest entry within that NBBO</li>
+<li>3:44 delay</li>
+</ul>
+</li>
+<li>2nd gap<ul>
+<li>Row 4095 - 9:48:24ET - Begin NBBO</li>
+<li>Row 13590 - 9:58:22ET - Last entry within that NBBO</li>
+<li>9:58 delay (almost 10 minutes!)</li>
+</ul>
+</li>
+</ul>
+<p>Edit5: I'll pick this up in the morning. I'm exhausted.</p>
+<p>&#x200B;</p>
+<p>Edit2:</p>
+<p><a href="https://youtu.be/AYct0XX0uTU?t=1949">Dave confirms manipulation is "without a doubt" happening and is "shockingly rampant"</a></p>
+<p><a href="https://youtu.be/AYct0XX0uTU?t=3502">Dave states in regards to dark pools "You cannot trade outside the NBBO. That is the rule in US markets."</a> It's either 610 or 611 and is the "backstop for best execution" &amp; "you cannot get outside of the protected quote."</p>
+<p><a href="https://www.law.cornell.edu/cfr/text/17/242.610">242.610 Reg NMS - Access to Quotations</a></p>
+<p><a href="https://www.law.cornell.edu/cfr/text/17/242.611">242.611 Reg NMS - Order Protection Rule</a></p>
+<p>I have now watched Dave's AMA 10 times and probably will need to watch it another 10 times.</p>
+<p>~~I am beginning to suspect, since he says that he "cannot say a ton about that" (when discussing manipulation), that he may not be able to provide insight or clarity into this situation due to other reasons. I hope that I am wrong and I sincerely hope that he chimes in eventually. For now, however,~~ <strong>I will begin compiling my data to prepare a submission to both the SEC &amp; Finra.</strong></p>
+<p>Edit6:</p>
+<p>I've spoken with Dave and he does not see these trades outside the NBBO in their data. He suspects the transaction data that Fidelity is providing is probably inaccurate. My next step is going to be calling Fidelity and inquiring about the quality of their data. I'm sure Dave is correct, but I still intend to do the due diligence of learning how Fidelity acquires their data and the accuracy of it. Per his recommendation, getting quality SIP data will cost \~$750/month - which is something I'm honestly not prepared to fork up at the moment. Thanks again, u/dlauer &amp; team, for taking the time to investigate this for me and for providing suggestions. I greatly appreciate the help.</p>
+<p>&#x200B;</p>
+<p>I'd also like to sincerely thank everyone for commenting &amp; awarding this post to help get traction. I will be updating it throughout the day once I finish with the data.</p>
+<p><a href="https://www.reddit.com/r/Superstonk/comments/n7ahcl/found_something_funky_on_the_dark_pools/?utm_source=share&amp;utm_medium=web2x&amp;context=3">Here is my post from last week covering the first occurrence of this market-wide manipulation</a></p>
+<p>&#x200B;</p></content></body>
